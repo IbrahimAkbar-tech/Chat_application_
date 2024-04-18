@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Chat_application">
         <activity
+            android:name=".LoginUsernameActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginOtpActivity"
+            android:exported="false" />
+        <activity
             android:name=".LoginPhoneNumberActivity"
             android:exported="false" />
         <activity
@@ -23,7 +29,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
     </application>
 
 </manifest>
