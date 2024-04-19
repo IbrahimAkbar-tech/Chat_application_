@@ -44,16 +44,6 @@ public class LoginUsernameActivity extends AppCompatActivity {
 
     }
 
-    void setInProgress(boolean inProgress){
-        if(inProgress){
-            progressBar.setVisibility(View.VISIBLE);
-            signIn.setVisibility(View.GONE);
-        } else {
-            progressBar.setVisibility(View.GONE);
-            signIn.setVisibility(View.VISIBLE);
-        }
-    }
-
     void setUserName(){
         String username = userNameInput.getText().toString();
 
@@ -81,7 +71,6 @@ public class LoginUsernameActivity extends AppCompatActivity {
                 }
             }
         });
-
     }
 
     void getUserName(){
@@ -98,5 +87,15 @@ public class LoginUsernameActivity extends AppCompatActivity {
                 }
             }
         });
+    }
+
+    void setInProgress(boolean inProgress){
+        if(inProgress){
+            progressBar.setVisibility(View.VISIBLE);
+            signIn.setVisibility(View.GONE);
+        } else {
+            progressBar.setVisibility(View.GONE);
+            signIn.setVisibility(View.VISIBLE);
+        }
     }
 }
