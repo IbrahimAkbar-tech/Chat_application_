@@ -41,6 +41,7 @@
         android:layout_height="match_parent"
         android:layout_below="@id/main_toolbar"
         android:layout_above="@id/divider"
+        android:background="@color/off_white"
         android:id="@+id/main_frame_layout"/>
 
     <com.google.android.material.divider.MaterialDivider
