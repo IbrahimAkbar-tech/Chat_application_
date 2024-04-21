@@ -8,4 +8,7 @@
 
     <color name="off_white">#FAFAFA</color>
     <color name="off_gray">#C3C3C3</color>
+
+    <color name="chat_colour_sender">#1E88E5</color>
+    <color name="chat_colour_receiver">#7CB342</color>
 </resources>
